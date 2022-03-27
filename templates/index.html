@@ -1,0 +1,471 @@
+{%load static%}
+<!doctype html>
+<!--
+	The7 by TEMPLATE STOCK
+	templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Trust Company</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="{%static  'css/reset.css'%}">
+        <link rel="stylesheet" href="{%static  'css/simplegrid.css'%}">
+        <link rel="stylesheet" href="{%static  'css/icomoon.css'%}">
+        <link rel="stylesheet" href="{%static  'css/lightcase.css'%}">
+        <link rel="stylesheet" href="{%static  'js/owl-carousel/owl.carousel.css'%}" />
+        <link rel="stylesheet" href="{%static  'js/owl-carousel/owl.theme.css'%}" />
+        <link rel="stylesheet" href="{%static  'js/owl-carousel/owl.transitions.css'%}" />
+        <link rel="stylesheet" href="{%static  'style.css'%}">
+
+        <!-- Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+           <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+           <!--[if lt IE 9]>
+             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+           <![endif]-->
+        </head>
+        <body id="home">
+            <!-- Header -->
+            <header id="top-header" class="header-home">
+                <div class="grid">
+                    <div class="col-1-1">
+                        <div class="content">
+                            <div class="logo-wrap">
+                                <a href="#0" class="logo"><img src="images/LogoTrust.jpg" alt="logo"></a>
+                            </div>
+                            <nav class="navigation">
+                                <input type="checkbox" id="nav-button">
+                                <label for="nav-button" onclick></label>
+                                <ul class="nav-container">
+                                  <li><a href="#home" class="current">Home</a></li>
+                                  <li><a href="#Jobs">Jobs</a></li>
+                                  <li><a href="#Create CV">Create CV</a></li>
+                                  <li><a href="#About">About</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- End Header -->
+
+            <!-- Parallax Section -->
+            <div class="parallax-section parallax1">
+                <div class="grid grid-pad">
+                    <div class="col-1-1">
+                         <div class="content content-header" >
+                            <br><br><br>
+                          <h2 style=" margin-top: 10px ;top:-43px ; margin-bottom: 2px; text-shadow: 5px 5px 1px black; ">Trust Ship Managenent</h2>
+                           <p style="margin-top: 2px ;top:-43px">Since 2007.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Parallax Section -->
+
+            <!-- CurveUp -->
+            <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+            </svg>
+
+            <!-- Job vacancies -->
+            <div class="wrap services-wrap" id="Jobs">
+                <section class="grid grid-pad services">
+                    <h2>Job vacancies</h2>
+                    <div class="col-1-2 service-box service-1" style="background-image: url('static/images/land-jobs.png'); ">
+                        <div class="content">
+                            <div class="service-entry">
+                              <h3 style="color:black;margin-bottom: 20px;">Land Jobs</h3>
+                              <p style="color:black;margin-bottom: 90px;">Our respect to customers,employess and
+                                <br>business partners based on open dialogue</p>
+                              <a class="btn read-more" href="job.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-2 service-box service-2" style="background-image: url('static/images/sea-jobs.png');">
+                        <div class="content">
+                            <div class="service-entry">
+                              <h3 style="color:black; margin-bottom: 20px;">Sea Jobs</h3>
+                              <p style="color:black;margin-bottom: 90px;"> Our respect to customers,employess and
+                                <br>business partners based on open dialogue</p>
+                              <a class="btn read-more" href="#job.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- End Services Section -->
+
+            <!-- CurveDown -->
+            <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+            </svg>
+
+            <!--create your cv-->
+            <div class="wrap grey recent-wrap" id="Create CV">
+                <section class="grid grid-pad" >
+                  <div class="" style="display:inline-block; text-align:right ;float:right ; margin-right:50px; margin-top: 100px">
+                    <h2 >Create your CV</h2>
+                  </div>
+                    <div class="portfolio-items" >
+                      <div class="rounded-img">
+                        <img src="{%static 'images/CV-modified.png'%}" alt="cv" align="left" >
+                      </div>
+                    </div>
+                    <div class="col-1-0" style="display:inline-block; text-align:right ;float:right ; margin-right:90px;">
+                        <a class="btn" href="cv.html" style="font-size: 2em; padding: 1rem 5rem ; top:-250px ">Create</a>
+                    </div>
+                </section>
+            </div>
+            <!-- End Work Section -->
+
+            <!-- CurveUp -->
+            <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+            </svg>
+
+              <!--  Certificates -->
+            <div class="wrap services-wrap" >
+                <section class="grid grid-pad">
+                    <div class="col-1-1 service-box cl-client-carousel-container">
+                        <div class="content">
+                            <div class="cl-client-carousel">
+                                <div class="item client-carousel-item"><!-- Start of item -->
+                                <div class="quotes-icon">
+                                    <i class="icon-quotes-left"></i>
+                                </div>
+                                <img src="{%static 'images/certificates/rina.png'%}" alt="rina" style="width: 600px ; height: 200px">
+                                <h4>ISO 900​​1 :2015</h4>
+                                </div><!-- End of item -->
+
+                                <div class="item client-carousel-item"><!-- Start of item -->
+                                <div class="quotes-icon">
+                                    <i class="icon-quotes-left"></i>
+                                </div>
+                                <img src="{%static   'images/certificates/rina.png'%}" alt="rina" style="width: 600px ; height: 200px">
+                                <h4>ILO Maritime Labour Convention 2006 - MLC 2006 (Title 1 - Standard A1.4)</h4>
+                                </div><!-- End of item -->
+                                <div class="item client-carousel-item"><!-- Start of item -->
+                                <div class="quotes-icon">
+                                    <i class="icon-quotes-left"></i>
+                                </div>
+                              <img src="{%static   'images/certificates/marlins.png'%}" alt="rina" style="width: 600px ; height: 200px">
+                                </div><!-- End of item -->
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- End Quotes Section -->
+
+             <!-- CurveDown -->
+            <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+            </svg>
+
+            <!-- our owned companies-->
+            <div class="wrap blog-grid grey" id="blog">
+                <div class="grid grid-pad">
+                    <div class="content" >
+                        <h2>Our Owned Companies</h2>
+                        <div class="col-1-3" >
+                            <article class="post-wrap">
+                                <div class="post-img">
+                                    <a href="#0"><img src="{%static  'images/post/recruiting.jpg'%}" alt=""></a>
+                                </div>
+                                <div class="post">
+                                    <h2 class="entry-title"><a href="#0">Trust Recruiting</a></h2>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-1-3" >
+                            <article class="post-wrap">
+                                <div class="post-img">
+                                      <a href="#0"><img src="{%static   'images/post/supplies.jpg'%}" alt=""></a>
+                                </div>
+                                <div class="post">
+                                    <h2 class="entry-title"><a href="#0">Trust Supplies</a></h2>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-1-3" >
+                            <article class="post-wrap">
+                                <div class="post-img">
+                                    <a href="#0"><img src=" {%static   'images/post/marine-service.jpeg'%}" alt=""></a>
+                                </div>
+                                <div class="post">
+                                    <h2 class="entry-title"><a href="#0">Trust Marine Service</a></h2>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Blog Section -->
+
+            <!-- CurveUp
+            <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+            </svg> -->
+
+
+            <!-- CurveDown -->
+            <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none"
+                style="fill: #ECF0F1; stroke:#ECF0F1;">
+                  <path d="M0 0 C 50 100 80 100 100 0 Z" ></path>
+            </svg>
+
+            <!-- our clients-->
+            <div class="parallax-section parallax2">
+                <div class="wrap">
+                    <section class="grid grid-pad callout">
+                        <div class="col-1-3">
+                            <div class="content" >
+                            <div class="info-counter">
+                                    <div class="info-counter-row">
+                                      <img src="{%static   'images/clients/lydia.png'%}" alt="" style="height:300px ; weight: 300px">
+                                    </div>
+                                    <div class="info-counter-content">
+                                      <h5 class="info-counter-number">
+                                        Lydia Mar shipping
+                                      </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-3">
+                            <div class="content" >
+                            <div class="info-counter">
+                                    <div class="info-counter-row">
+                                          <img src="{%static   'images/clients/bolten.png'%}" alt="" style="height:300px ; weight: 300px">
+                                    </div>
+                                    <div class="info-counter-content">
+                                      <h5 class="info-counter-number">
+                                        August Bolten
+                                      </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-1-3">
+                            <div class="content" >
+                            <div class="info-counter">
+                                    <div class="info-counter-row">
+                                        <img src=" {%static  'images/clients/esm.png'%}" alt="" style="height:300px ; weight: 300px">
+                                    </div>
+                                    <div class="info-counter-content">
+                                      <h5 class="info-counter-number">
+                                        Esmeralda Shipmanagement
+                                      </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- End Parallax Section -->
+
+            <!-- CurveUp -->
+            <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+            </svg>
+                            <!-- why choose us-->
+                            <div class="wrap" id="pricing">
+                                <div class="grid grid-pad">
+                                    <div class="content" >
+                                        <div class="col-1-1">
+                                            <section id="price-tables">
+                                              <h2 style="margin-bottom:10px">Why Choose Us</h2>
+                                              <p>Our corporate values form the basis of everything we do.</p>
+                                                <ul id="plans">
+                                                    <li class="plan" >
+                                                        <ul class="plan-wrap">
+                                                            <li class="title"><h2>Respectful</h2></li>
+                                                            <li class="price"><i class="info-counter-icon icomoon icon-file"></i></li>
+                                                            <li>
+                                                              <p style="color:black">For us respecting opinions of others is the most important thing , respecting and trusting form the basis for working successfully
+                                                              with others , our conversation based on an open dialogue. </p>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="plan " >
+                                                        <ul class="plan-wrap">
+                                                            <li class="title"><h2>Independent</h2></li>
+                                                            <li class="price"><i class="info-counter-icon icomoon  icon-arrow-up"></i></li>
+                                                            <li>
+                                                              <p style="color:black">
+                                                              Our independence depend on honest , transparant and optional solution for our customers.
+                                                            </p>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="plan " >
+                                                        <ul class="plan-wrap">
+                                                            <li class="title"><h2>PERSONAL</h2></li>
+                                                            <li class="price"><i class="info-counter-icon icomoon  icon-users"></i></li>
+                                                            <li>
+                                                              <p style="color:black">
+                                                              Being close to our customers is an essential aspect of providing outstanding services ,
+                                                              we work hard on our customers behalf with full expertise, enthusiam and energy.
+                                                            </p>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="plan " >
+                                                        <ul class="plan-wrap">
+                                                            <li class="title"><h2>SUSTAINABLE</h2></li>
+                                                            <li class="price"><i class="info-counter-icon icomoon   icon-cogs"></i></li>
+                                                            <li>
+                                                              <p style="color:black">
+                                                              our aim is to add value and act responsibly.
+                                                               We work towards sustainable success and treat our company and its resources with care.
+                                                            </p>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+
+                                                    </ul>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Pricing Section -->
+
+                <!-- CurveUp -->
+                <svg class="curveUpColor curveGrey" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+                </svg>
+
+                <!-- About Us -->
+                <div class="wrap team-wrap grey" id="About">
+                    <div class="grid grid-pad">
+                        <div class="content" >
+                            <h2>About Us</h2>
+                            <div class="col-1-2" >
+                                <div class="content staff-content">
+                                    <div class="recent-work staff-img">
+                                        <div class="img-wrap staff-img">
+                                              <img src="{%static   'images/about.jpg'%}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1-2" >
+                                <div class="content staff-content">
+                                    <div class="recent-work staff-img">
+                                        <div class="img-wrap staff-img">
+                                            {% for about in about%}
+                                          <h5 style="font-weight: bold;">{{about.title}}</h5>
+                                          <br>
+                                          <p>
+                                            {{about.desc}}
+                                          </p>
+                                          {%endfor%}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Team Section -->
+
+                <!-- CurveDown -->
+                <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none"
+                style="fill: #ECF0F1; stroke:#ECF0F1;">
+                    <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+                </svg>
+
+                <!-- Footer -->
+                <footer class="wrap">
+                    <div class="grid grid-pad" >
+                        <div class="col-1-3">
+                            <div class="content">
+                                <div class="footer-widget">
+                                    <h3>Adress</h3>
+                                    <div class="textwidget">
+                                          <p>​Office 36, Building 6, Fayrozet Smoha Buildings,Elnakl we Elhandsa&nbsp; str., Smoha, Alexandria, Egypt.</p><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-3" >
+                            <div class="content">
+                                <div class="footer-widget">
+                                    <h3>E-mails</h3>
+                                    <div class="fwidget">
+                                        <ul>
+                                          <li><a href="#0">Info@trustegy.net</a></li>
+                                          <li><a href="#0">crew@trustegy.net</a></li>
+                                          <li><a href="#0">Agency@trustegy.net</a></li>
+                                          <li><a href="#0">esmegy@gmail.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-3" >
+                            <div class="content">
+                                <div class="footer-widget">
+                                    <h3>Phone</h3>
+                                    <div class="textwidget">
+                                      <p>+2034224554</p>
+                                      <br>
+                                      <p>+201065526700</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-footer">
+                        <div class="grid grid-pad">
+                            <div class="col-1-1" >
+                                <div class="content">
+                                    <div class="social-set">
+                                        <a  href="#0"><i class="icon-facebook"></i></a>
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End Footer -->
+
+           <!--     <div class="loader-overlay">
+                    <div class="loader">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>  -->
+
+                <!-- JS -->
+                <script src="js/jquery.js"></script>
+                <script src="js/main.js"></script>
+                <script src="js/mixitup.js"></script>
+                <script src="js/smoothscroll.js"></script>
+                <script src="js/jquery.nav.js"></script>
+                <script src="js/owl-carousel/owl.carousel.min.js"></script>
+                <script src="https://maps.googleapis.com/maps/api/js"></script>
+                <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+                <script src="js/jquery.counterup.min.js"></script>
+                <script src="js/lightcase.min.js"></script>
+            </body>
+        </html>
